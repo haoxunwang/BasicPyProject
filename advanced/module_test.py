@@ -14,7 +14,7 @@ name = 'module_test'
 def m_t_pr():
     print('module_test method: module_test')
 
-
+# 独立运行的模块，需要将运行的程序段放入if __name__ == '__main__'中
 if __name__ == '__main__':
     m_t_pr()
     print(name)

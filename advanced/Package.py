@@ -11,6 +11,7 @@ import sys
 from math import sqrt
 import math as shuxue
 import module_test
+import advanced
 
 print('调用math.sqrt:\t', math.sqrt(2))
 print('直接调用sqrt:\t', sqrt(2))
@@ -21,3 +22,6 @@ sys.path.append('/Users/haoxunwang/coding/python_projects/BasicPyProject/advance
 
 module_test.m_t_pr()
 print('使用module_test模块中的变量: ', module_test.name)
+
+print('输出advanced包中变量name: ', advanced.name)
+advanced.advanced_test_fun()
