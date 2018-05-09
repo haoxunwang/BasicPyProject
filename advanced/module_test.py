@@ -21,4 +21,5 @@ if __name__ == '__main__':
     print(name)
 
 # 如果此模块被导入引入的话，那么这个模块内的__name__值就是文件的名字（不带.py），如果不涉及模块导入的话，__name__的值就是"__main__".
+'''@see https://blog.csdn.net/yitiaodashu/article/details/79023987'''
 print(__name__)
