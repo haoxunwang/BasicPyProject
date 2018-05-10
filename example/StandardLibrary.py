@@ -8,7 +8,7 @@
 import doctest
 import glob
 import math
-import os
+import file
 import random
 import re
 import shutil
@@ -22,14 +22,14 @@ from urllib.parse import urlencode
 from urllib.request import urlopen, Request
 
 '''
-print(os.getcwd())
-os.chdir('/BasicPyProject')
-os.system('mkdir today')
+print(file.getcwd())
+file.chdir('/BasicPyProject')
+file.system('mkdir today')
 '''
 
 '''
-print(dir(os))
-print(help(os))
+print(dir(file))
+print(help(file))
 '''
 
 '''
